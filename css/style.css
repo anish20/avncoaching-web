@@ -298,7 +298,7 @@ li {
   margin-top: 5px;
 }
 /*Crosel*/
-.carousel-item {
+/* .carousel-item {
     height: 65vh;
     min-height: 350px;
     background: no-repeat center center scroll;
@@ -306,7 +306,7 @@ li {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+  } */
 
   /*Scroll behavir smooth*/
   html{
