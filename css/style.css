@@ -317,3 +317,10 @@ li {
     justify-items: center;
     align-items: center;
   }
+
+
+  @media(max-width:500px){
+   #carousel-example-2{
+    margin-top: 141px;
+   } 
+  }
