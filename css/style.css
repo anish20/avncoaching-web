@@ -9,7 +9,6 @@
 
 .img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header, .video-fluid {
   max-width: 100%;
-  height: 137px !important;
 }
 body {
     margin: 0;
@@ -323,4 +322,26 @@ li {
    #carousel-example-2{
     margin-top: 141px;
    } 
+   #about-heading{
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: -9px;
+    margin-top: 5px;
+   }
+
+   #class-heading,#team-heading,#contactus-heading{
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: -9px;
+    margin-top: 5px;
+   }
+   #acadenic,#graduate,#compet{
+     display: none;
+   }
+   #marquee-heading{
+      font-size: 18px !important;
+   }
+
   }
+
+  

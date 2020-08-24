@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design for Bootstrap</title>
+  <title>AVN Coaching-नरैनी , शफीपुर - सुल्तानपुर ( उ. प्र.)</title>
   <!-- MDB icon -->
-  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/logo.png" type="image/x-icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Google Fonts Roboto -->
@@ -156,14 +156,14 @@
 <!--/.Carousel Wrapper-->
 <!--/.Carousel Wrapper-->
 <div class="container-fluid my-2 py-2 z-depth-1 bg-warning">
-  <marquee><h4 class="m-0 text-white">Welcome to AVN Coaching Center / 
+  <marquee><h4 class="m-0 text-white" id="marquee-heading">Welcome to AVN Coaching Center / 
     एवीएन कोचिंग सेंटर में आपका स्वागत है</h4></marquee>
 </div>
   <!--Aboutus-->
 
   <div class="container-fluid my-2 py-2 z-depth-1">
  <!--Section: Content-->
- <h3 class="font-weight-bold text-center">About the AVN Coaching / एवीएन कोचिंग के बारे में</h3><hr>
+ <h3 class="font-weight-bold text-center" id="about-heading" >About the AVN Coaching / एवीएन कोचिंग के बारे में</h3><hr>
 
     <section class="px-md-5 mx-md-5 dark-grey-text text-center text-lg-left">
 
@@ -212,22 +212,22 @@
   <!--Our Classess-->
 
   <div class="container-fluid my-2">
-    <h3 class="font-weight-bold text-center dark-grey-text pb-2">Our Classes / संचालित कक्षाएं</h3>
+    <h3 class="font-weight-bold text-center dark-grey-text pb-2" id="class-heading">Our Classes / संचालित कक्षाएं</h3>
     <hr>
     <!-- Section -->
     <section>
       <ul class="nav nav-tabs md-tabs bg-primary" id="myTabEx" role="tablist">
         <li class="nav-item">
           <a class="nav-link active show" id="home-tab-ex" data-toggle="tab" href="#home-ex" role="tab" aria-controls="home-ex"
-            aria-selected="true"><i class="fas fa-chalkboard-teacher"></i> Academics</a>
+            aria-selected="true"><i class="fas fa-chalkboard-teacher"></i> <span id="acadenic">Academics</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" id="profile-tab-ex" data-toggle="tab" href="#profile-ex" role="tab" aria-controls="profile-ex"
-            aria-selected="false"><i class="fas fa-graduation-cap"></i> Graduation</a>
+            aria-selected="false"><i class="fas fa-graduation-cap"></i> <span id="graduate">Graduation</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" id="contact-tab-ex" data-toggle="tab" href="#contact-ex" role="tab" aria-controls="contact-ex"
-            aria-selected="false"><i class="fas fa-certificate"></i> Competetive Exam</a>
+            aria-selected="false"><i class="fas fa-certificate"></i> <span id="compet">Competetive Exam</span></a>
         </li>
       </ul>
       <div class="tab-content pt-5" id="myTabContentEx">
@@ -235,7 +235,7 @@
           <div class="container-fluid">
             <div class="row">
               <!-- <div class="col-xs-1 col-sm-1 bg-warning m-1 p-4 text-center font-weight-bold">1<sup>th</sup> Class</div> -->
-              <div class="col-xm-6 col-sm-6 col-md-6"><img class="img-fluid" src="img/basics.PNG" style="width: 700px;"></div>
+              <div class="col-xm-6 col-sm-6 col-md-6 mb-1"><img class="img-fluid" src="img/basics.PNG" style="width: 700px;"></div>
               <div class="col-xm-6 col-sm-6 col-md-6"><img class="img-fluid" src="img/intermediate.PNG" style="width: 700px;"></div>
               
               
@@ -292,7 +292,7 @@
       <!--Section: Content-->
       <section class="team-section text-center dark-grey-text">
          <!-- Section heading -->
-        <h2 class="font-weight-bold text-center dark-grey-text mt-1 pb-2">Our Teacher Team / हमारी शिक्षक टीम</h2><hr>
+        <h2 class="font-weight-bold text-center dark-grey-text mt-1 pb-2" id="team-heading">Our Teacher Team / हमारी शिक्षक टीम</h2><hr>
         
         <!-- Grid row -->
         <div class="row">
@@ -497,7 +497,7 @@
 <!--Section: Content-->
     <section class=" text-center text-lg-left dark-grey-text">
   
-      <h3 class="font-weight-bold text-center">Contact Us / संपर्क करें </h3>
+      <h3 class="font-weight-bold text-center" id="contactus-heading">Contact Us / संपर्क करें </h3>
       <hr >
   <div class="container-fluid ">
       <!--Grid row-->
@@ -580,17 +580,18 @@
   
   <!--Footer-->
   <!-- Footer -->
-<footer class="page-footer font-small grey lighten-3 py-4 dark-grey-text">
+<footer class="page-footer font-small grey lighten-3 py-2 dark-grey-text">
 
   <!-- Footer Elements -->
   <div class="container">
 
     <div class="row">
       <div class="col-md-4">
-        <h3 class="font-weight-bold mb-0">MDB</h3>
+        <!-- <h3 class=" mb-0">AVN COACHING</h3> -->
+        <!-- <img src="/img/logo.png" style="width:31px" > -->
       </div>
       <div class="col-md-4">
-        <ul class="list-unstyled d-flex justify-content-center mb-0 mt-2">
+        <!-- <ul class="list-unstyled d-flex justify-content-center mb-0 mt-2">
           <li>
           	<a class="mx-3" role="button">About</a>
           </li>
@@ -603,12 +604,12 @@
           <li>
           	<a class="mx-3" role="button">Contact</a>
           </li>
-        </ul>
+        </ul> -->
       </div>
       <div class="col-md-4">
         <!-- Copyright -->
-        <div class="footer-copyright text-right bg-transparent dark-grey-text mt-2">© 2019.
-          <a class="dark-grey-text" href="https://mdbootstrap.com/education/bootstrap/"> All rights reserved.</a>
+        <div class="footer-copyright text-right bg-transparent dark-grey-text mt-1">© 2020.
+          <a class="dark-grey-text" href="#"> All rights reserved.</a>
         </div>
         <!-- Copyright -->
       </div>
@@ -619,7 +620,9 @@
 
 </footer>
 <!-- Footer -->
-  
+
+
+
 </div>
   <!-- End your project here-->
 
