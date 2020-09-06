@@ -8,7 +8,7 @@
 }
 
 section h2{
-  font-size: 40px !important;
+  font-size: 35px !important;
 }
 
 .custom-form{
@@ -23,7 +23,7 @@ section h2{
     }
 
     section h2{
-      font-size: 26px !important;
+      font-size: 23px !important;
       font-weight: bolder;
     }
     .logo-title{
@@ -32,7 +32,17 @@ section h2{
     }
 
     .card-cont h4{
-      font-size: 18px;
+      font-size: 18px !important;
+    }
+
+    .card .card-content .card-title{
+        font-size: 20px !important;
+    }
+
+    .more-icon{
+    position: absolute !important;
+    right: 19px !important;
+    top: 356px !important;
     }
 
   }
