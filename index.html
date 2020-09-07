@@ -26,7 +26,8 @@
       </style>
      
 </head>
-<body>
+<body onload="myLoader()">
+  <div id="loader"></div>
  <!--Header top contact-->
  <div class="navbar-fixed">
  
@@ -341,9 +342,6 @@
     $('.sidenav').sidenav();
 
     $('.slider').slider();
-
-   
-
   });
 
 
@@ -359,7 +357,11 @@
 
 });
 
-
+function myLoader(){
+  setTimeout(()=>{
+    $("#loader").css("display","none");
+  },1000)
+}
   
   
   </script>
